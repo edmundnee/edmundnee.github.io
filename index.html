@@ -96,6 +96,10 @@ body {
   left: -16px;
 }
 
+.headings {
+  color: red;
+}
+
 /* The actual content */
 .content {
   padding: 20px 30px;
@@ -150,11 +154,11 @@ body {
       <p id="part_1"></p>
       
       <script>    
-          var end = new Date(2021, 11, 4, 2);
+          var end = new Date(2021, 10, 4, 2, 10);
           var now = new Date();
           if (end - now <= 0) {
-              document.getElementById("part_1").innerHTML = "It is 2am";
-          } else {document.getElementById("part_1").innerHTML = end;}
+              document.getElementById("part_1").innerHTML = "It is 2.10am";
+          } else {document.getElementById("part_1").innerHTML = "It is before 2.10am";}
       </script>
       
     </div>
